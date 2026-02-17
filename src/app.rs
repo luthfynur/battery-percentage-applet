@@ -147,7 +147,7 @@ impl cosmic::Application for AppModel {
     /// be drawn using the `view_window` method.
     fn view(&self) -> Element<'_, Self::Message> {
         let text = self.core.applet.text(&self.battery_percentage).size(15.0).center();
-        let container: cosmic::widget::Container<Message, Theme>  = cosmic::widget::container(text);
+        let container: cosmic::widget::Container<Message, Theme>  = cosmic::widget::container(text).padding(1.0);
         self.core.applet.autosize_window(container).into()
     }
 
