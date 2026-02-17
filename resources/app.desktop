@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Battery Percentage Applet
+Comment=Battery percentage text applet for cosmic desktop
+Type=Application
+Icon=com.github.luthfynur.battery-percentage-applet
+Exec=battery-percentage-applet %F
+Terminal=false
+StartupNotify=true
+Categories=COSMIC
+Keywords=COSMIC
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto
+MimeType=
